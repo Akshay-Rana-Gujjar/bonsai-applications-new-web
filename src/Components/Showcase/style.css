@@ -1,0 +1,14 @@
+.showcase-wrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+.showcase-wrapper h1,.showcase-wrapper p{
+    margin-bottom: 0px;
+}
+.showcase-slide-back{
+    background-color: #FCA311;
+    text-align: center;
+    height: 200px;
+    margin-top: 30px;
+    clear: both;
+}

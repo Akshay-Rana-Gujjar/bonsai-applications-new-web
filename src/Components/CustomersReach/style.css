@@ -1,0 +1,16 @@
+.happy-customers{
+    text-align: center;
+    margin-top: -100px;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0px;
+}
+.numbers .items h3{
+    color: #FCA311;
+    font-weight: 700;
+}
+.numbers .items p{margin-bottom: 0px;}

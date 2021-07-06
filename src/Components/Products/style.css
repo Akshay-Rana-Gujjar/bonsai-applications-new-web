@@ -1,0 +1,40 @@
+.service-div-main{
+    text-align: center;
+}
+.services-div{
+    display: grid;
+    background-color: rgba(196, 196, 196, 0.3);
+    grid-template-columns: repeat(2,auto);
+}
+.services-div .service-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 120px;
+    margin-bottom: 20px;
+    color: #14213D;
+}
+.service-item img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+.squares{
+    display: block;
+    text-align: right;
+    transform: translateY(-70px);
+}
+.squares img{
+    height: 200px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating{
+    0%{transform: translateY(10px);}
+    100%{transform: translateY(-10px);}
+}
