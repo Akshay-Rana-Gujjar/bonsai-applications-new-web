@@ -4,7 +4,7 @@ import "./style.css";
 const Price = () => {
   return (
     <>
-      <div className="price-section">
+      <div className="price-section" id="price">
         <h1>Our best Offers/Prices</h1>
         <PriceCard />
       </div>
@@ -28,7 +28,7 @@ const PriceCard = () => {
             <p>Service 3</p>
             <hr />
           </div>
-          <button>Call Us Now</button>
+          <a href="tel:+9181-307-56533">Call Us Now</a>
         </div>
         <div className="card-item">
           <div>
@@ -42,7 +42,7 @@ const PriceCard = () => {
             <p>Service 3</p>
             <hr />
           </div>
-          <button>Call Us Now</button>
+          <a href="tel:+9181-307-56533">Call Us Now</a>
         </div>
         <div className="card-item">
           <div>
@@ -56,7 +56,7 @@ const PriceCard = () => {
             <p>Service 3</p>
             <hr />
           </div>
-          <button>Call Us Now</button>
+          <a href="tel:+9181-307-56533">Call Us Now</a>
         </div>
       </div>
     </>

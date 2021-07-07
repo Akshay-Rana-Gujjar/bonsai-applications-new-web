@@ -22,22 +22,44 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-.price-cards .card-item button{
+.price-cards .card-item a{
+    text-decoration: none;
     width: 100%;
+    color: #fff;
     margin: 0px auto;
     background-color: #FCA311;
     padding: 10px 25px;
-    border: none;
     border-radius: 6px;
-    color: #fff;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 .price-cards .card-item:nth-child(even){
     background-color: #FCA311;
 }
-.price-cards .card-item:nth-child(even) button{
+.price-cards .card-item:nth-child(even) a{
     background-color: #fff;
     color: #FCA311;
 }
-.price-cards .card-item button:hover{box-shadow: none;color: #000;}
+.price-cards .card-item a:hover{box-shadow: none;color: #000;}
+
+@media(max-width:768px){
+    .price-cards{
+        display: block;
+    }
+    .price-cards .card-item{
+        width: 40%;
+        margin: 30px auto;
+    }
+}
+
+@media(max-width:425px){
+    .price-cards .card-item{
+        width: 65%;
+    }
+}
+
+@media(max-width:325px){
+    .price-cards .card-item{
+        width: 80%;
+    }
+}

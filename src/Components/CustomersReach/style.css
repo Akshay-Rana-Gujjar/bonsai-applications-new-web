@@ -14,3 +14,26 @@
     font-weight: 700;
 }
 .numbers .items p{margin-bottom: 0px;}
+
+@media(max-width:768px){
+    .happy-customers{
+        margin-top: -0px;
+    }   
+}
+
+@media(max-width:425px){
+    .numbers{
+        flex-direction: column;
+    }
+    .numbers .items{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:325px){
+    .numbers .items{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

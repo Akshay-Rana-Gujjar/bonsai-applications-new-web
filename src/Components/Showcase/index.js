@@ -13,7 +13,7 @@ const Showcase = () => {
         <p>WANT THIS FOR YOUR WEBSITE OR BUSINESS APPLICATION</p>
 
         <div className="showcase-slide-back"></div>
-        {/* <ShowSlide/> */}
+        <ShowSlide/>
       </div>
     </>
   );

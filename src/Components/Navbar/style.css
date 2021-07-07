@@ -1,5 +1,6 @@
 nav{
     background-color: #14213D;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
 }
 .navbar-light .navbar-nav .nav-link{color: #fff;}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -12,4 +13,21 @@ nav{
 .navbar-nav .nav-item{margin-left: 40px;}
 .navbar-brand img{
     height:50px
+}
+
+.navbar-toggler:focus{box-shadow: none;}
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+}
+.navbar-light .navbar-toggler-icon{
+    filter: invert(1);
+}
+.navbar-toggler{padding: 5px;}
+
+@media(max-width:768px){
+    .navbar-nav .nav-item{
+        margin-left: 0px;
+        width: fit-content;
+        margin: 3px auto;
+    }
 }

@@ -11,7 +11,7 @@ import Square from "../../Images/services/squares.svg";
 const Products = ()=>{
     return(
         <>
-        <div className="service-div-main">
+        <div className="service-div-main" id="services">
             <h1>What do we offer</h1>
             <p>We also create rental APPLICATIONS.</p>
             <div className="services-div">

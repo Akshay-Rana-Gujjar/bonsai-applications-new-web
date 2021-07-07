@@ -6,9 +6,12 @@
     margin-bottom: 0px;
 }
 .showcase-slide-back{
+    position: relative;
+    z-index: -1;
+    transform: translateY(150px);
     background-color: #FCA311;
     text-align: center;
-    height: 200px;
+    height: 250px;
     margin-top: 30px;
     clear: both;
 }

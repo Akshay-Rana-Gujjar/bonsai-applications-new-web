@@ -1,14 +1,15 @@
 import React from "react";
 import "./style.css";
 import Logo from "../../Images/logo.png"
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light sticky-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           <img src={Logo} alt="Bonsai Applications" title="Bonsai Applications"/>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,29 +24,29 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#services">
                 Service
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#price">
                 Price
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contact Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/privacy-policy">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

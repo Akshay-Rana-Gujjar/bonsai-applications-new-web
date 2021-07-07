@@ -38,3 +38,44 @@
     0%{transform: translateY(10px);}
     100%{transform: translateY(-10px);}
 }
+
+@media(max-width:1200px){
+    .services-div .service-item{
+        padding-left: 70px;
+    }
+    .squares img{
+        height: 150px;
+    }
+}
+@media(max-width:768px){
+    .services-div .service-item{
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+    .services-div .service-item h4{
+        font-size: 20px;
+    }
+    .squares{
+        transform: translateY(-20px);
+    }
+    .squares img{
+        height: 130px;
+    }
+    .service-item img{
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:425px){
+    .services-div{
+        grid-template-columns: repeat(1,auto);
+        justify-content: center;
+    }
+    .services-div .service-item{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .service-item img{margin-right: 0px;}
+}
