@@ -24,22 +24,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#services">
+              <a className="nav-link" href="/#services">
                 Service
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#price">
+              <a className="nav-link" href="/#price">
                 Price
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <a className="nav-link" href="/#contact">
                 Contact Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <a className="nav-link" href="/#about">
                 About
               </a>
             </li>

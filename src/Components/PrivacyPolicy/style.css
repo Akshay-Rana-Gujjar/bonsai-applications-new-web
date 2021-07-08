@@ -1,0 +1,9 @@
+.privacy-div{margin-bottom: 50px;}
+.privacy-div h2,.privacy-div h1{
+    color: #FCA311;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.privacy-div a{
+    word-break: break-all;
+}
