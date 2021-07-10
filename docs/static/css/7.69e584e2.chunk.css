@@ -1,0 +1,2 @@
+.happy-customers{text-align:center;margin-top:-100px}.numbers{display:flex;flex-direction:row;justify-content:space-evenly;align-items:center;margin:20px 0}.numbers .items h3{color:#fca311;font-weight:700}.numbers .items p{margin-bottom:0}@media(max-width:768px){.happy-customers{margin-top:0}}@media(max-width:425px){.numbers{flex-direction:column}.numbers .items{margin-top:10px;margin-bottom:30px}}@media(max-width:325px){.numbers .items{margin-top:10px;margin-bottom:10px}}
+/*# sourceMappingURL=7.69e584e2.chunk.css.map */
